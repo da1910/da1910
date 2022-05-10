@@ -22,6 +22,7 @@ jobs:
 
           # Options
           template: terminal
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/London
           plugin_languages: yes
